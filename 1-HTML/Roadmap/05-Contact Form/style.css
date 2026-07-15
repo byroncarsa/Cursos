@@ -1,0 +1,110 @@
+ /* Globales */
+.container{
+    max-width: 750px; 
+    margin: 0 auto; 
+}
+
+h1{
+    font-size: 34px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+hr{
+    height: 2px; 
+    background-color: #333;
+    border: none; 
+}
+
+/* Header */
+header p{
+    font-size: 34px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+nav{
+    display: flex;
+    gap: 25px;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+/* Contact */
+form{
+    width: 240px;
+    margin-top: 25px;
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.input2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.input3{
+    display: flex;
+    margin-bottom: 18px;
+    gap: 3px;
+}
+
+.input3 label{
+    padding-top: 3px;
+}
+
+label{
+    font-size: 18px;
+}
+
+input{
+    padding: 5px;
+}
+
+select{
+    padding: 5px 21px;
+}
+
+textarea{
+    width: 147px;
+}
+
+.radio div{
+    margin-bottom: 8px;
+}
+
+.radios{
+    margin-left: 5px;
+}
+
+.button{
+    background-color: white;
+    font-size: 18px;
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer{
+    border-top: 2px solid black;
+    margin-top: 35px;
+}
+
+footer p{
+    padding-top: 7px;
+    font-size: 18px;
+}
+
+
+

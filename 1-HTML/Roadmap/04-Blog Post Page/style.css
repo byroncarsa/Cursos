@@ -1,0 +1,99 @@
+
+/* Globales */
+.container{
+    max-width: 720px; 
+    margin: 0 auto; 
+}
+
+a{
+    color: black;
+}
+
+h1{
+    font-weight: 600;
+    margin: 40px 0 12px 0;
+}
+
+h2{
+    margin: 20px 0 10px 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+p{
+    font-size: 17px;
+    margin: 8px 0;
+}
+
+span{
+    font-size: 18px;
+}
+
+img{
+    width: 350px;
+    height: 150px;
+    margin-top:7px;
+}
+
+/* Header */
+.logo{
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+nav{
+    display: flex;
+    gap: 35px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+/* Main */
+.main div{
+    margin-top: 17px;
+}
+
+/* Benefits */
+ul{
+    padding-left: 25px;
+}
+
+li{
+    padding-bottom: 7px;
+}
+
+/* Examples */ 
+figure{
+    margin: 0;
+    width: 350px;
+}
+
+figcaption{
+    text-align: center;
+}
+
+.cita{
+    border-left: 1px solid black;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+
+/* Code sample x*/
+pre{
+    border: solid 1px black;
+    padding: 3px 15px;
+    width: 430px;
+}
+
+/* Footer */ 
+footer p{
+    margin: 30px 0 20px 0;
+}
+
+
+
+
+
