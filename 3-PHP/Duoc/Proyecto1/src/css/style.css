@@ -1,0 +1,212 @@
+/* GLOBALES */
+body{
+    background-color: #2E2E2E;
+	font-family: Arial, Verdana, Tahoma;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    margin: 0;
+    text-align: center;
+}
+
+h2{
+    font-size: 18px;
+}
+
+p{
+    font-size: 14px;
+}
+
+img{
+    width: 100%;
+}
+
+.contenedor {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.fecha{
+    color: white;
+    text-align: right;
+}
+
+/* LOGO */
+.logo{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.logo p{
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.logo img{
+    width: 200px;
+    height: 200px;
+}
+
+
+/* MENU */
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    background-color: white;
+    padding: 10px 0;
+	font-family: sans-serif, Verdana, Arial;
+}
+
+nav a{
+    background-color: #2470EB;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 50px;
+    font-size: 15px;
+}
+
+nav .active{
+    background-color: blue;
+}
+
+nav a:hover{
+    background-color: blue;
+}
+
+nav a:hover:active {
+    background-color: gray;
+    color: black;
+} 
+
+
+/* MAIN */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: white;
+    width: 1000px;
+    margin: 20px 0;
+    padding: 30px 30px 100px 30px;
+}
+
+.main p{
+    text-align: center;
+}
+
+
+
+#slider{
+	position: relative;
+	width: 965px;
+	height: 400px;
+	padding: 10px;
+	background-color: #000;
+	margin: 0 auto;
+}
+#slider > div{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#slider img{
+    height: 400px;
+    width: 965px;
+}
+
+
+/* PRODUCTOS */
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.productos p{
+    margin: 8px 0
+}
+
+/* FORMULARIO */
+form{
+    padding-top: 14px;
+}
+
+.campo{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.campo label{
+    display: block;
+    padding-bottom: 5px;
+}
+
+.campo input{
+    padding: 4px;
+}
+
+.botones{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.botones input{
+    color: white;
+    background-color: #2470EB;
+    padding: 5px 10px;
+}
+
+
+
+
+
+
+
+/* FOOTER */
+footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    background-color: #585858;
+}
+
+footer p{
+    color: white;
+    padding: 30px 4px;
+}
+
+footer img{
+    width: 150px; 
+    height: auto;
+}
+
+footer .col1{
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+}
+
+footer .col2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+}
+
+footer .col3{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 25px;
+}

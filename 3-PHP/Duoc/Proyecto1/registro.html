@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCTOS - SWS</title>
+
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <header class="contenedor">
+        <div class="fecha">
+            <script src="src/js/fecha.js"></script>
+        </div>
+
+        <div class="logo">
+            <a href="index.html">
+                <img src="src/img/logo.png" alt="logo">
+                <p>-South Waves Store-</p>
+            </a>
+        </div>
+
+        <nav>
+            <a href="mision.html">Mision</a>
+            <a href="productos.html">Nuestros Productos</a>
+            <a href="contacto.html">Contactenos</a>
+            <a href="registro.html" class="active">Registrese</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main">
+            <h1>Registrese</h1>
+
+            <form action="">
+                <div class="campo">
+                    <label for="rut">Rut</label>
+                    <input type="text" id="rut" name="rut" onblur="validarRut()">
+                </div>
+
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" onblur="validarNombre()" >
+                </div>
+
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" onblur="validarEmail()" >
+                </div>
+
+                <div class="campo">
+                    <label for="fono">Fono</label>
+                    <input type="text" id="fono" name="fono" onblur="validarFono()" >
+                </div>
+
+                <div class="campo">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" onblur="validarPassword()" >
+                </div>
+
+                <div class="botones">
+                    <input type="submit" value="Aceptar">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="contenedor">
+        <div class="col1">
+            <img src="src/img/webpay.png" alt="webpay">
+        </div>
+
+        <div class="col2">
+            <p>Eyzaguirre 455, San Bernardo, Santiago</p>
+        </div>
+
+        <div class="col3">
+            <img src="src/img/redes.png" alt="redes sociales" class="redes">
+        </div>
+    </footer>
+
+    <script src="src/js/validar.js"></script>
+</body>
+</html>

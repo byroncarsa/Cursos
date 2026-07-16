@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - SWS</title>
+
+    <link rel="stylesheet" href="src/css/style.css">
+
+</head>
+<body>    
+    <header class="contenedor">
+        <div class="fecha">
+            <script src="src/js/fecha.js"></script>
+        </div>
+
+        <div class="logo">
+            <a href="index.html">
+                <img src="src/img/logo.png" alt="logo">
+                <p>-South Waves Store-</p>
+            </a>
+        </div>
+
+        <nav>
+            <a href="mision.html">Mision</a>
+            <a href="productos.html">Nuestros Productos</a>
+            <a href="contacto.html" class="active">Contactenos</a>
+            <a href="registro.html">Registrese</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main">
+            <h1>Contacto</h1>
+
+            <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" onblur="validarNombre()">
+                </div>
+
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" onblur="validarEmail()">
+                </div>
+
+                <div class="campo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" onblur="validarMensaje()"></textarea>
+                </div>
+
+                <div class="botones">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+
+          
+        </div>
+    </main>
+
+    <footer class="contenedor">
+        <div class="col1">
+            <img src="src/img/webpay.png" alt="webpay">
+        </div>
+
+        <div class="col2">
+            <p>Eyzaguirre 455, San Bernardo, Santiago</p>
+        </div>
+
+        <div class="col3">
+            <img src="src/img/redes.png" alt="redes sociales" class="redes">
+        </div>
+    </footer>
+
+    <script src="src/js/validar.js"></script>
+</body>
+</html>
