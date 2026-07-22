@@ -1,3 +1,30 @@
+<?php
+
+    require 'funciones.php';
+
+    $id = $_GET['id'];
+    $id = filter_var($id);
+
+    if(!$id) {
+        header('Location: /');
+    }
+
+    // 1. Leer el archivo JSON completo
+    $jsonString = file_get_contents('articulos.json');
+    
+    // 2. Convertir el texto JSON a un arreglo asociativo de PHP
+    $articulos = json_decode($jsonString, true);
+
+    // 3. Listar todo
+    foreach($articulos as $tmp){
+        if($tmp['id'] == $id){
+            $articulo = $tmp;
+            break;
+        }
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,13 +39,13 @@
     <main class="container">
 
         <div class="titulo">
-            <h1>My firts article</h1>
+            <h1><?php echo $articulo['titulo']; ?></h1>
             <a href="index.php">Back</a>
         </div>
         
-        <p class="fecha c-gray">August 7,2026</p>
+        <p class="fecha c-gray"><?php echo $articulo['fecha']; ?></p>
 
-        <p class="contenido">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mi sem, ullamcorper at consectetur nec, elementum non dui. Morbi diam dui, scelerisque sit amet malesuada et, maximus vehicula neque. In ultricies lacus in tortor volutpat posuere. Ut mauris sapien, condimentum a est sed, dictum finibus ipsum. Aliquam luctus ac justo et porta. In aliquam commodo tellus. Nunc magna neque, tristique et nisi quis, volutpat fringilla felis. In dictum ex vel consequat tempus. Maecenas vestibulum volutpat est, nec euismod lacus euismod sit amet. Fusce ullamcorper enim sed magna lacinia ullamcorper. Quisque accumsan hendrerit dui sed finibus. Nulla tempor ante sed leo faucibus efficitur. Phasellus sit amet purus vitae nulla pulvinar convallis. Nulla dapibus scelerisque orci quis placerat.</p>
+        <p class="contenido"><?php echo $articulo['contenido']; ?></p>
     </main>
 
 </body>

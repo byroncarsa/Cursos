@@ -1,3 +1,11 @@
+<?php 
+    // 1. Leer el archivo JSON completo
+    $jsonString = file_get_contents('articulos.json');
+    
+    // 2. Convertir el texto JSON a un arreglo asociativo de PHP
+    $articulos = json_decode($jsonString, true);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,30 +27,18 @@
             </div>
         </div>
 
-        <div class="articulos">
-            
-            <div class="articulo">
-                <a href="articulo.php">
-                    <p>My firts article</p>
-                </a>
+         <div class="articulos">
+            <?php foreach($articulos as $articulo): ?>
+                <div class="articulo" id="<?php $articulo['id'] ?>">
+                    <p><?php echo $articulo['titulo']; ?></p>
 
-                 <div class="botones">
-                    <a href="update.php" class="c-gray">Edit</a>
-                    <a href="update.php" class="c-gray">Delete</a>
+                    <div class="botones">
+                        <a href="update.php?id=<?php echo $articulo['id']; ?>" class="c-gray">Edit</a>
+                        <a href="update.php" class="c-gray">Delete</a>
+                        </form>
+                    </div>
                 </div>
-            </div>
-
-            <div class="articulo">
-                <a href="articulo.php">
-                    <p>My second article</p>
-                </a>
-
-                <div class="botones">
-                    <a href="update.php" class="c-gray">Edit</a>
-                    <a href="update.php" class="c-gray">Delete</a>
-                </div>
-            </div>
-
+            <?php endforeach; ?>
         </div>
     </main>
 

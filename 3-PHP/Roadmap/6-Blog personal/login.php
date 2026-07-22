@@ -5,8 +5,8 @@
     $errores = [];
 
     //Inicializar variables
-    $usuario = '';
-    $password = '';
+    $usuario = 'admin';
+    $password = '12345';
 
 
     if($_SERVER['REQUEST_METHOD'] === 'POST'){
@@ -65,7 +65,7 @@
 
             <div class="entradas">
                 <input type="text" placeholder="User Name" name="usuario" value="<?php echo $usuario ?>">
-                <input type="password" placeholder="Password" name="password">
+                <input type="password" placeholder="Password" name="password" value="<?php echo $password ?>">
             </div>
 
             <input type="submit" value="Enter" class="boton">

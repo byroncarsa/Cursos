@@ -26,7 +26,7 @@
         <div class="articulos">
             <?php foreach($articulos as $articulo): ?>
                 <div class="articulo" id="<?php $articulo['id'] ?>">
-                    <a href="articulo.php">
+                    <a href="articulo.php?id=<?php echo $articulo['id']; ?>">
                         <p><?php echo $articulo['titulo']; ?></p>
                     </a>
 
