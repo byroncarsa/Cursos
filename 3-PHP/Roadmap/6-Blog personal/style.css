@@ -70,7 +70,7 @@ span{
 }
 
 
-/* EDITAR */
+/* FORMULARIO */
 .formulario {
     margin-top: 15px;
 }
@@ -101,8 +101,11 @@ span{
     margin-top: 13px;
 }
 
-
-/* NUEVO */
-
+.error{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+}
 
 

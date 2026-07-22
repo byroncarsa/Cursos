@@ -1,3 +1,9 @@
+<?php 
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,23 +22,15 @@
         </div>
 
         <div class="articulos">
-            
-            <div class="articulo">
-                <a href="articulo.php">
-                    <p>My firts article</p>
-                </a>
+            <?php foreach($articulos as $articulo): ?>
+                <div class="articulo" id="<?php $articulo['id'] ?>">
+                    <a href="articulo.php">
+                        <p><?php echo $articulo['titulo']; ?></p>
+                    </a>
 
-                <p class="c-gray">August 7,2026</p>
-            </div>
-
-            <div class="articulo">
-                <a href="articulo.php">
-                    <p>My second article</p>
-                </a>
-
-                <p class="c-gray">August 7,2026</p>
-            </div>
-
+                    <p class="c-gray"><?php echo $articulo['fecha']; ?></p>
+                </div>
+            <?php endforeach; ?>
         </div>
     </main>
 
