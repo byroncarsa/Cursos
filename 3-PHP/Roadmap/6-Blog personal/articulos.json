@@ -1,0 +1,14 @@
+[
+    {
+        "id" : 1,
+        "titulo" : "Articulo 1",
+        "fecha" : "12-12-12",
+        "contenido" : " Contenido de articulo 1"
+    },
+    {
+        "id" : 2,
+        "titulo" : "Articulo 2",
+        "fecha" : "12-12-12",
+        "contenido" : " Contenido de articulo 2"
+    }
+]

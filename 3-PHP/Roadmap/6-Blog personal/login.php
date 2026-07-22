@@ -12,8 +12,8 @@
     if($_SERVER['REQUEST_METHOD'] === 'POST'){
 
         //Completar variables 
-        $usuario = $_POST['usuario'];
-        $password = $_POST['password'];
+        $usuario = s($_POST['usuario']);
+        $password = s($_POST['password']);
 
         if(!$usuario){
             $errores[] = 'Debes añadir un usaurio';
@@ -43,7 +43,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
 
     <link rel="stylesheet" href="style.css">
 </head>

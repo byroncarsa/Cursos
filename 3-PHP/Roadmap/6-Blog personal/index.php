@@ -1,7 +1,9 @@
 <?php 
-
-
-
+    // 1. Leer el archivo JSON completo
+    $jsonString = file_get_contents('articulos.json');
+    
+    // 2. Convertir el texto JSON a un arreglo asociativo de PHP
+    $articulos = json_decode($jsonString, true);
 ?>
 
 <!DOCTYPE html>
@@ -9,7 +11,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
