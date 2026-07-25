@@ -1,11 +1,7 @@
 Tooltip UI
 
-Proyect: 
+Proyect: https://roadmap.sh/projects/tooltip-ui
 
-https://roadmap.sh/projects/tooltip-ui
-
-Demo:
-
-https://byroncarsa.github.io/CSS-Projects/07-Tooltip%20UI/
+Demo: https://github.com/byroncarsa/Cursos/tree/main/2-CSS/Roadmap/07-Tooltip%20UI
 
 
