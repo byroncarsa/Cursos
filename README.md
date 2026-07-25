@@ -1,3 +1,45 @@
-Project: https://roadmap.sh/projects/personal-blog
+HTML Projects Roadmaps
 
-Demo: https://github.com/byroncarsa/Cursos/tree/main/3-PHP/Roadmap/6-Blog%20personal
+Proyects: https://roadmap.sh/frontend/projects
+
+
+Projects 1: Single-Page-CV
+
+Project: https://roadmap.sh/projects/single-page-cv
+
+Demo: https://github.com/byroncarsa/Cursos/tree/main/1-HTML/Roadmap/01-Single-Page-CV
+
+
+Projects 2: Basic HTML Website
+
+Project: https://roadmap.sh/projects/basic-html-website
+
+Demo: https://github.com/byroncarsa/Cursos/tree/main/1-HTML/Roadmap/02-Basic%20HTML%20Website
+
+
+Projects 3: Pricing Comparison Table
+
+Project: https://roadmap.sh/projects/pricing-comparison-table
+
+Demo: https://github.com/byroncarsa/Cursos/tree/main/1-HTML/Roadmap/03-Pricing%20Comparison%20Table
+
+
+Projects 4: Blog Post Page
+
+Project: https://roadmap.sh/projects/blog-post-page
+
+Demo: https://github.com/byroncarsa/Cursos/tree/main/1-HTML/Roadmap/04-Blog%20Post%20Page
+
+
+Projects 5: Contact Form
+
+Project: https://roadmap.sh/projects/contact-form
+
+Demo: https://github.com/byroncarsa/Cursos/tree/main/1-HTML/Roadmap/05-Contact%20Form
+
+
+Projects 6: Photo Showcase
+
+Project: https://roadmap.sh/projects/photo-showcase
+
+Demo: https://github.com/byroncarsa/Cursos/tree/main/1-HTML/Roadmap/06-Photo%20Showcase
