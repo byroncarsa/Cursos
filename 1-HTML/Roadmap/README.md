@@ -8,8 +8,6 @@ Projects 1: Single-Page-CV
 
 Project: https://roadmap.sh/projects/single-page-cv
 
-Demo: https://byroncarsa.github.io/HTML-Projects/01-Single-Page-CV/
-
 <br>
 
 Projects 2: Basic HTML Website
