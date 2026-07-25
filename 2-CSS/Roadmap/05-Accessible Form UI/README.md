@@ -1,10 +1,6 @@
 Accessible Form UI
 
-Proyect: 
+Proyect: https://roadmap.sh/projects/accessible-form-ui
 
-https://roadmap.sh/projects/accessible-form-ui
-
-Demo:
-
-https://byroncarsa.github.io/CSS-Projects/05-Accessible%20Form%20UI/
+Demo: https://github.com/byroncarsa/Cursos/tree/main/2-CSS/Roadmap/05-Accessible%20Form%20UI
 
