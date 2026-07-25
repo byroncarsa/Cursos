@@ -1,12 +1,8 @@
 Testimonial Cards
 
-Proyect: 
+Proyect: https://roadmap.sh/projects/testimonial-cards
 
-https://roadmap.sh/projects/testimonial-cards
-
-Demo:
-
-https://byroncarsa.github.io/CSS-Projects/03-Testimonial%20Cards/
+Demo: https://github.com/byroncarsa/Cursos/tree/main/2-CSS/Roadmap/03-Testimonial%20Cards
 
 
 
