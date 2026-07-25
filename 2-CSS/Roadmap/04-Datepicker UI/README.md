@@ -1,11 +1,7 @@
 Datepicker UI
 
-Proyect: 
+Proyect: https://roadmap.sh/projects/datepicker-ui
 
-https://roadmap.sh/projects/datepicker-ui
-
-Demo:
-
-https://byroncarsa.github.io/CSS-Projects/04-Datepicker%20UI/
+Demo: https://github.com/byroncarsa/Cursos/tree/main/2-CSS/Roadmap/04-Datepicker%20UI
 
 
