@@ -1,10 +1,6 @@
 Basic HTML Website
 
-Proyect: 
+Proyect: https://roadmap.sh/projects/basic-html-website
 
-https://roadmap.sh/projects/basic-html-website
-
-Demo: 
-
-https://byroncarsa.github.io/CSS-Projects/01-Personal%20Portfolio/
+Demo: https://github.com/byroncarsa/Cursos/tree/main/2-CSS/Roadmap/01-Personal%20Portfolio
 
