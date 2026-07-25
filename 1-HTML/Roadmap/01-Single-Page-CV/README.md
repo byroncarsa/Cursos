@@ -1,12 +1,8 @@
 SINGLE PAGE CV
 
-Proyect: 
+Project: https://github.com/byroncarsa/Cursos/tree/main/1-HTML/Roadmap/01-Single-Page-CV
 
-https://roadmap.sh/projects/single-page-cv
 
-Demo:
-
-https://byroncarsa.github.io/HTML-Projects/01-Single-Page-CV/
 
 
 
