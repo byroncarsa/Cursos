@@ -6,31 +6,25 @@ Proyects: https://roadmap.sh/frontend/projects
 
 Projects 1: Single-Page-CV
 
-Project: https://roadmap.sh/projects/single-page-cv
+Project: https://github.com/byroncarsa/Cursos/tree/main/1-HTML/Roadmap/01-Single-Page-CV
 
 <br>
 
 Projects 2: Basic HTML Website
 
-Project: https://roadmap.sh/projects/basic-html-website
-
-Demo: https://byroncarsa.github.io/HTML-Projects/02-Basic%20HTML%20Website/
+Project: https://github.com/byroncarsa/Cursos/tree/main/1-HTML/Roadmap/02-Basic%20HTML%20Website
 
 <br>
 
 Projects 3: Pricing Comparison Table
 
-Project: https://roadmap.sh/projects/pricing-comparison-table
-
-Demo: https://byroncarsa.github.io/HTML-Projects/03-Pricing%20Comparison%20Table/
+Project: https://github.com/byroncarsa/Cursos/tree/main/1-HTML/Roadmap/03-Pricing%20Comparison%20Table
 
 <br>
 
 Projects 4: Blog Post Page
 
-Project: https://roadmap.sh/projects/blog-post-page
-
-Demo: https://byroncarsa.github.io/HTML-Projects/04-Blog%20Post%20Page
+Project: https://github.com/byroncarsa/Cursos/tree/main/1-HTML/Roadmap/04-Blog%20Post%20Page
 
 <br>
 
