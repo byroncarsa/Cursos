@@ -1,12 +1,6 @@
 Pricing Comparison Table
 
-Proyect: 
-
-https://roadmap.sh/projects/photo-showcase
-
-Demo: 
-
-https://byroncarsa.github.io/HTML-Projects/06-Photo%20Showcase
+Project: https://github.com/byroncarsa/Cursos/tree/main/1-HTML/Roadmap/06-Photo%20Showcase
 
 
 
