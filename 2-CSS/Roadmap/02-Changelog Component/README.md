@@ -1,12 +1,8 @@
 Changelog Component
 
-Proyect: 
+Proyect: https://roadmap.sh/projects/changelog-component
 
-https://roadmap.sh/projects/changelog-component
-
-Demo:
-
-https://byroncarsa.github.io/CSS-Projects/02-Changelog%20Component/
+Demo: https://github.com/byroncarsa/Cursos/tree/main/2-CSS/Roadmap/02-Changelog%20Component
 
 
 
