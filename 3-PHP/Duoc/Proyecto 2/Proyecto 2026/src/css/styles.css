@@ -1,0 +1,31 @@
+header, nav, section, article, footer 
+{
+  display: block;
+}
+header {
+          border: 1px solid black;
+          width: 97%;
+          padding-bottom: 5%;
+          background: #999;
+          border-radius: 10px;
+          margin-bottom: 1%;
+       }
+section {
+          border: 1px solid black;
+          width:97%;
+          padding-bottom: 20%;
+          float: left;
+          margin-bottom: 1%;
+          border-radius: 10px;
+          background: red;
+        }
+footer {
+          border: 1px solid black;
+          width:97%;
+          padding-top: 5%;
+          padding-bottom: 1%;
+          clear: both;
+          border-radius: 10px;
+          background: #999;
+        }
+}

@@ -1,0 +1,10 @@
+
+
+create database EMPRESA_XX;
+use EMPRESA_XX;
+
+create table EMPLEADOS (rut varchar(10) PRIMARY KEY, nombre varchar(20), apellido varchar(20));
+
+insert into EMPLEADOS values('1-1','Susana','Correa');
+insert into EMPLEADOS values('2-2','Ximena','Fuentes');
+insert into EMPLEADOS values('3-3','Sandra','Garces');

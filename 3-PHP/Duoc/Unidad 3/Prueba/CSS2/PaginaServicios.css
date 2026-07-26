@@ -1,0 +1,156 @@
+h 
+       {
+       width:auto;
+       margin:auto;
+       background:white;
+    }
+ 
+ 
+    nav    
+	{
+	   background:white;
+	   padding: 20px 4px 20px 4px;
+	   margin-left: 155px;
+	   margin-right: 155px;
+	}
+ 
+
+	section1
+	{
+		background: black;
+       opacity:0.3;
+       filter:Alpha(opacity=30);
+	   float: left;
+	   background:white;
+	   height:200px;
+	   width:800px;
+	   margin-left: 155px;
+	   
+    }
+	
+	section2
+	{
+		background: black;
+       opacity:0.3;
+       filter:Alpha(opacity=30);
+	   float: left;
+	   background:white;
+	   height:200px;
+	   width:800px;
+	   margin-left: 155px;
+	   margin-top: 10px;
+    }
+	
+	section3
+	{
+		background: black;
+       opacity:0.3;
+       filter:Alpha(opacity=30);
+	   float: left;
+	   background:white;
+	   height:200px;
+	   width:800px;
+	   margin-left: 155px;
+	   margin-top: 10px;
+    }
+	
+    section4
+	{
+		background: black;
+       opacity:0.3;
+       filter:Alpha(opacity=30);
+	   float: left;
+	   background:white;
+	   height:200px;
+	   width:800px;
+	   margin-left: 155px;
+	   margin-top: 10px;
+    }
+	
+    section5
+	{
+		background: black;
+       opacity:0.3;
+       filter:Alpha(opacity=30);
+	   float: left;
+	   background:white;
+	   height:200px;
+	   width:800px;
+	   margin-left: 155px;
+	   margin-top: 10px;
+    }
+	
+	
+	aside1
+	{
+	    background: black; 
+	   float: right;
+	   background:white;
+	   padding: 0px 0px 0px 0px;
+	   margin-top: -14px;
+	   margin-right: 155px;
+	   margin-bottom:10px;
+	   margin-top: -2px;
+	}
+	
+	aside2
+	{
+	    background: black; 
+	   float: right;
+	   background:white;
+	   padding: 0px 0px 0px 0px;
+	   margin-top: 2px;
+	   margin-right: 155px;
+	   margin-bottom:10px;
+	}
+	
+    aside3
+	{
+	    background: black; 
+	   float: right;
+	   background:white;
+	   padding: 0px 0px 0px 0px;
+	   margin-top: 0px;
+	   margin-right: 155px;
+	   margin-bottom:10px;
+	}
+	
+	aside4
+	{
+	    background: black; 
+	   float: right;
+	   background:white;
+	   padding: 0px 0px 0px 0px;
+	   margin-top: 0px;
+	   margin-right: 155px;
+	   margin-bottom:10px;
+	}
+	
+    aside5
+	{
+	    background: black; 
+	   float: right;
+	   background:white;
+	   padding: 0px 0px 0px 0px;
+	   margin-top: 0px;
+	   margin-right: 155px;
+	   margin-bottom:10px;
+	}
+	
+
+	p {
+        font: oblique bold 200% cursive;
+	    color:black;
+     }
+	 
+
+    footer
+       {  
+	   clear: both;
+       background:#585858;
+	   padding: 30px 4px 30px 4px;
+	   margin-left: 10px;
+	   margin-right: 10px;
+	   margin-top:100px;
+	   margin-bottom:10px;
+    } 

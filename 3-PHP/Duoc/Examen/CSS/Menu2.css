@@ -1,0 +1,32 @@
+	
+		
+		<style type="text/css">
+		
+			#menu div.barraMenu a.botonMenu {
+			font-family: sans-serif, Verdana, Arial;
+			font-size: 22pt;
+			color: blue;
+			}
+
+			#menu div.barraMenu {
+			text-align: center;
+			}
+
+			#menu div.barraMenu a.botonMenu {
+			background-color: #5B9279;
+			color: white;
+			cursor: pointer;
+			padding: 12px 90px 12px 90px;
+			text-decoration: none;
+			}
+
+			#menu div.barraMenu a.botonMenu:hover {
+			background-color: #085630;
+			}
+
+			#menu div.barraMenu a.botonMenu:active {
+			background-color: gray;
+			color: black;
+			} 
+		</style>
+	

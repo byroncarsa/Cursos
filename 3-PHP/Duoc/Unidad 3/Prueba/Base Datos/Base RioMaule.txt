@@ -1,0 +1,7 @@
+CREATE DATABASE rioMaule;
+use rioMaule;
+
+create table usuarios(usuario varchar(10) primary key, clave varchar(10),rut varchar(10),nombre varchar(10),paterno varchar(10),materno varchar(10),correo varchar(10),fono varchar(10));
+
+insert into usuarios values('Sandra','11111','18976649-1','byron','garrido','sepulveda','byr@gmail.com','51163608');
+
