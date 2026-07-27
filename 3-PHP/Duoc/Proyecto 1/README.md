@@ -1,4 +1,4 @@
-<h1> Peroyecto 1</h1>
+<h1> Proyecto 1</h1>
 
 </br>
 
