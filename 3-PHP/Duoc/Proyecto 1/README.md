@@ -4,6 +4,8 @@ Diseñar un sitio web para una empresa que desea entrar al mercado de las ventas
 <ol>
 <li>Crear una carpeta con su nombre y apellido, dentro de esta crear las carpetas: “jq”, “js”,”css” y ”fotos”, todas en el mismo nivel.  Todos los archivos .html deben crearse en la raíz de la carpeta del proyecto.</li>
 
+</br>
+
 <li>Crear el diseño de un sitio con tag de HTML5 header, nav, section, footer. Recuerde que si cambiamos las dimensiones de la ventana, el sitio se debe adaptarse a la nueva configuración. Debe proponer un tema al profesor y enfocar su proyecto en eso. </li>
 
 <li>El tag header debe contener El nombre de la empresa con su logo y en la esquina superior derecha la fecha actual, elemento proporcionado por JS a un div. </li> 
